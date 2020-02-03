@@ -23,6 +23,11 @@ html {
   background: #ff4800;
 }
 
+.icon_image {
+  width: 20px;
+  margin-right: 10px;
+}
+
 .center_wrapper {
   width: 900px;
   margin: 0 auto;

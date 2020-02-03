@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import MyButton from "../utils/MyButton";
 
 class Discount extends Component {
   state = {
@@ -42,7 +43,12 @@ class Discount extends Component {
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five
               </p>
-              <div>button</div>
+              <MyButton
+                link="#"
+                color="secondary"
+                text="purchase ticket"
+                variant="contained"
+              />
             </div>
           </Slide>
         </div>
